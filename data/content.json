@@ -94,6 +94,22 @@
     "Nearest railway station: Exeter St Davids"
   ],
 
+  "camping": {
+  "title": "Camping & Caravanning at Froginwell Vineyard",
+  "description": "Two private camping fields around the estate will be reserved exclusively for wedding guests.",
+  "tentPrice": "£15 per night",
+  "electricPrice": "£25 per night",
+  "electricHookups": 9,
+  "facilities": [
+    "Exclusive wedding guest camping fields",
+    "Toilet facilities",
+    "Shower facilities",
+    "9 electric hook-ups"
+  ],
+  "notes": "Additional nights may be available by arrangement with the venue, subject to availability.",
+  "url": "PASTE_CAMPING_FORM_LINK_HERE"
+},
+  
   "accommodation": [
     {
       "name": "The Devon Hotel",
