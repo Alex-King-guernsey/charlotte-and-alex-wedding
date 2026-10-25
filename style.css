@@ -40,6 +40,7 @@ body{
   padding:20px;
 }
 
+
 .overlay{
   background:rgba(255,255,255,0.22);
   backdrop-filter:blur(12px);
@@ -59,6 +60,10 @@ body{
   color:white;
 }
 
+.hero p{
+  margin-top:10px;
+}
+
 .hero h1{
   font-size:4.5rem;
   margin-bottom:20px;
@@ -68,7 +73,8 @@ body{
 .hero h2{
   color:white;
   font-size:2rem;
-  margin-bottom:20px;
+  margin-top:15px;
+  margin-bottom:15px;
 }
 
 .countdown{
