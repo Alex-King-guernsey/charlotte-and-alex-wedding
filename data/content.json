@@ -80,34 +80,53 @@
     "description": "For those staying locally, we'd love for you to join us for a relaxed BBQ the day after the wedding. We'll be gathering to enjoy good food, good company and the chance to relive the highlights from the day before. Further details will be shared closer to the wedding."
   },
 
-  "venue": {
-    "name": "Froginwell Vineyard",
-    "address": "Froginwell Lane, Woodbury Salterton, Exeter",
-    "postcode": "EX5 1EP",
-    "description": "Nestled in the beautiful Devon countryside, Froginwell Vineyard provides the perfect backdrop for our wedding celebration. Surrounded by rolling hills, vineyards and stunning rural scenery, it immediately felt like the perfect place to celebrate such an important day."
+"venue": {
+  "name": "Froginwell Vineyard",
+  "address": "Froginwell Lane, Woodbury Salterton, Exeter",
+  "postcode": "EX5 1EP",
+  "description": "Nestled in the beautiful Devon countryside, Froginwell Vineyard provides the perfect backdrop for our wedding celebration. Surrounded by a vineyard, apple orchard, and 4 acres of wildflower meadow, it immediately felt like the perfect place for us to celebrate our special day.",
+  "arrival": "Please aim to arrive at 1:00pm and allow extra time when travelling as country roads can be busy, especially during summer weekends.",
+  "mapsUrl": "https://maps.app.goo.gl/wci38MRkhHRX3jQM8"
+}
+"campingHighlight": {
+  "title": "Stay On-Site",
+  "message": "Exclusive camping and caravanning facilities are available for wedding guests at Froginwell Vineyard."
+}
+  
+"travel": {
+  "parking": "Free on-site parking is available for all guests. Free overnight parking is available in the front field.",
+  "accessibleParking": "Accessible parking spaces are available close to the venue.",
+  "camping": "Guests staying onsite can walk directly to the venue from the camping fields.",
+  "rail": "The nearest mainline station is Exeter St Davids.",
+  "taxi": "We recommend pre-booking taxis where possible, especially for the return journey after the evening reception.",
+  "road": "Froginwell Vineyard is easily accessible by car and located a short drive from Exeter."
+}
+  
+  "taxis": [
+  {
+    "name": "Apple Central Taxis",
+    "phone": "ADD_NUMBER"
   },
+  {
+    "name": "Exeter Taxis",
+    "phone": "ADD_NUMBER"
+  }
+]
 
-  "transport": [
-    "Free on-site parking available",
-    "Accessible parking spaces available",
-    "Taxi information will be added closer to the wedding",
-    "Nearest railway station: Exeter St Davids"
-  ],
-
-  "camping": {
+  "campingcaravanning": {
   "title": "Camping & Caravanning at Froginwell Vineyard",
-  "description": "Two private camping fields around the estate will be reserved exclusively for wedding guests.",
+  "description": "Stay right in the heart of the celebrations with exclusive camping and caravanning facilities available for our wedding guests.",
   "tentPrice": "£15 per night",
-  "electricPrice": "£25 per night",
-  "electricHookups": 9,
+  "caravanPrice": "£25 per night",
+  "electricHookupsAvailable": 9,
   "facilities": [
     "Exclusive wedding guest camping fields",
     "Toilet facilities",
-    "Shower facilities",
+    "One shared shower",
     "9 electric hook-ups"
   ],
-  "notes": "Additional nights may be available by arrangement with the venue, subject to availability.",
-  "url": "PASTE_CAMPING_FORM_LINK_HERE"
+  "notes": "Additional nights may be available by arrangement with the venue, subject to availability and the Froginwell events calendar.",
+  "url": "https://forms.cloud.microsoft/r/eW9RJWbNpY"
 },
   
   "accommodation": [
@@ -141,6 +160,10 @@
       "answer": "Formal attire. We'd love everyone to dress up and celebrate with us."
     },
     {
+      "question": "How far is the venue from Exeter?",
+      "answer": "Froginwell Vineyard is a short drive from Exeter and nearby accommodation options."
+    }
+    {
       "question": "Can I bring children?",
       "answer": "Please refer to your invitation. Unfortunately, we're unable to accommodate guests beyond those named."
     },
@@ -153,16 +176,28 @@
       "answer": "Yes. Complimentary on-site parking is available."
     },
     {
+      "question": "Can I leave my car overnight?",
+      "answer": "Yes, overnight parking is allowed in the front field."      
+    },
+    {
+      "question": "Can I camp at the venue?",
+      "answer": "Yes. Exclusive camping and caravanning facilities will be available for our wedding guests. Details can be found in the Accommodation section."
+    },
+    {
+      "question": "Do I need to book camping / caravanning separately?",
+      "answer": "Please submit a request via our dedicated Camping & Caravanning request form, and we will handle the booking with Froginwell Vineyard directly. Please note that caravanning spots are limtied and allocated on a first come, first served basis."
+    }
+    {
       "question": "What happens if it rains?",
       "answer": "The venue has excellent indoor facilities, so the celebrations will continue whatever the weather."
     },
     {
       "question": "What time does the reception finish?",
-      "answer": "Carriages are scheduled for midnight."
+      "answer": "The reception will offically finish at midnight, but live music will stop at 11pm."
     },
     {
       "question": "Can I take photographs during the ceremony?",
-      "answer": "We'll share guidance closer to the day, but we'd love everyone to be fully present and enjoy the moment with us."
+      "answer": "We do kindly ask that people don't take photos during the ceremony, as we have hired a professional photographer. All photos will be made available via this website after the wedding. We encourage you to take photos at all other times!"
     },
     {
       "question": "Do I need to RSVP for the BBQ?",
