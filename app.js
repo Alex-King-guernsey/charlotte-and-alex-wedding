@@ -12,7 +12,7 @@ fetch("data/content.json").then(r=>r.json()).then(data=>{const target=new Date(d
 
 <div class="count">
 
-<div class="tile"><strong>${days}</strong><br>Days</div></div><a class="btn" href="${data.rsvp.url}">RSVP Now</a></div></div><div class="section"><h2 id="story">Our Story</h2><div class="card">${data.story.content}</div><h2 id="day">The Big Day</h2>${data.timeline.map(t=>`<div class='card'><strong>${t.time}</strong><br>${t.event}</div>`).join('')}<h2>The Day After</h2><div class='card'><strong>${data.bbq.date}</strong><br>${data.bbq.time}<br><br>${data.bbq.description}</div><h2 id='venue'>Venue</h2><div class='card'><h3>${data.venue.name}</h3><p>${data.venue.description}</p><p>${data.venue.address}<br>${data.venue.postcode}</p></div>
+<div class="tile"><strong>${days}</strong><br>Days Until We Say "I Do"</div></div><a class="btn" href="${data.rsvp.url}">RSVP Now</a></div></div><div class="section"><h2 id="story">Our Story</h2><div class="card">${data.story.content}</div><h2 id="day">The Big Day</h2>${data.timeline.map(t=>`<div class='card'><strong>${t.time}</strong><br>${t.event}</div>`).join('')}<h2>The Day After</h2><div class='card'><strong>${data.bbq.date}</strong><br>${data.bbq.time}<br><br>${data.bbq.description}</div><h2 id='venue'>Venue</h2><div class='card'><h3>${data.venue.name}</h3><p>${data.venue.description}</p><p>${data.venue.address}<br>${data.venue.postcode}</p></div>
 
 <h2>Transport & Parking</h2>
 
