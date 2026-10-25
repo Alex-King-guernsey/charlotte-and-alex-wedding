@@ -113,6 +113,40 @@ h2{
   margin-bottom:12px;
 }
 
+.timeline{
+  margin-top:20px;
+}
+
+.timeline-item{
+  display:flex;
+  gap:20px;
+  padding:18px 0;
+  border-bottom:1px solid rgba(0,0,0,.08);
+}
+
+.timeline-time{
+  min-width:120px;
+  font-weight:700;
+  color:var(--sage);
+}
+
+.timeline-event{
+  flex:1;
+}
+
+@media (max-width:768px){
+
+  .timeline-item{
+    flex-direction:column;
+    gap:5px;
+  }
+
+  .timeline-time{
+    min-width:auto;
+  }
+
+}
+
 .camping-card{
   border:2px solid var(--sage);
   background:#f8fbf7;
