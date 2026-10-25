@@ -12,7 +12,76 @@ fetch("data/content.json").then(r=>r.json()).then(data=>{const target=new Date(d
 
 <div class="count">
 
-<div class="tile"><strong>${days}</strong><br>Days Until We Say "I Do"</div></div><a class="btn" href="${data.rsvp.url}">RSVP Now</a></div></div><div class="section"><h2 id="story">Our Story</h2><div class="card">${data.story.content}</div><h2 id="day">The Big Day</h2>${data.timeline.map(t=>`<div class='card'><strong>${t.time}</strong><br>${t.event}</div>`).join('')}<h2>The Day After</h2><div class='card'><strong>${data.bbq.date}</strong><br>${data.bbq.time}<br><br>${data.bbq.description}</div><h2 id='venue'>Venue</h2><div class='card'><h3>${data.venue.name}</h3><p>${data.venue.description}</p><p>${data.venue.address}<br>${data.venue.postcode}</p></div>
+<div class="tile"><strong>${days}</strong><br>Days Until We Say "I Do"</div></div><a class="btn" href="${data.rsvp.url}">RSVP Now</a></div></div><div class="section"><h2 id="story">Our Story</h2><div class="card">${data.story.content}</div><h2 id="day">The Big Day</h2>${data.timeline.map(t=>`<div class='card'><strong>${t.time}</strong><br>${t.event}</div>`).join('')}<h2>The Day After</h2><div class='card'><strong>${data.bbq.date}</strong><br>${data.bbq.time}<br><br>${data.bbq.description}</div>
+
+<h2 id='venue'>🌿 Venue</h2>
+
+<div class='card'>
+
+<h3>${data.venue.name}</h3>
+
+<p>${data.venue.description}</p>
+
+<p>
+${data.venue.address}<br>
+${data.venue.postcode}
+</p>
+
+<a
+  class='btn'
+  href='${data.venue.mapsUrl}'
+  target='_blank'
+>
+📍 Open in Google Maps
+</a>
+
+</div>
+
+<h2>🚗 Travel & Parking</h2>
+
+<div class='card'>
+<strong>Parking</strong><br>
+${data.travel.parking}
+</div>
+
+<div class='card'>
+<strong>Accessible Parking</strong><br>
+${data.travel.accessibleParking}
+</div>
+
+<div class='card'>
+<strong>By Rail</strong><br>
+${data.travel.rail}
+</div>
+
+<div class='card'>
+<strong>Taxis</strong><br>
+${data.travel.taxi}
+</div>
+
+<div class='card'>
+<strong>By Road</strong><br>
+${data.travel.road}
+</div>
+
+<div class='card'>
+<h3>🏕 Staying On-Site?</h3>
+
+<p>
+Exclusive camping and caravanning facilities are available for wedding guests at Froginwell Vineyard.
+</p>
+
+<a
+  class='btn'
+  href='${data.campingCaravanning.url}'
+  target='_blank'
+>
+Request Camping or Caravan Pitch
+</a>
+
+</div>
+
+
 
 <h2>Transport & Parking</h2>
 
