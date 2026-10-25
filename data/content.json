@@ -87,11 +87,7 @@
   "description": "Nestled in the beautiful Devon countryside, Froginwell Vineyard provides the perfect backdrop for our wedding celebration. Surrounded by a vineyard, apple orchard, and 4 acres of wildflower meadow, it immediately felt like the perfect place for us to celebrate our special day.",
   "arrival": "Please aim to arrive at 1:00pm and allow extra time when travelling as country roads can be busy, especially during summer weekends.",
   "mapsUrl": "https://maps.app.goo.gl/wci38MRkhHRX3jQM8"
-}
-"campingHighlight": {
-  "title": "Stay On-Site",
-  "message": "Exclusive camping and caravanning facilities are available for wedding guests at Froginwell Vineyard."
-}
+},
   
 "travel": {
   "parking": "Free on-site parking is available for all guests. Free overnight parking is available in the front field.",
@@ -100,7 +96,7 @@
   "rail": "The nearest mainline station is Exeter St Davids.",
   "taxi": "We recommend pre-booking taxis where possible, especially for the return journey after the evening reception.",
   "road": "Froginwell Vineyard is easily accessible by car and located a short drive from Exeter."
-}
+},
   
   "taxis": [
   {
@@ -111,8 +107,8 @@
     "name": "Exeter Taxis",
     "phone": "ADD_NUMBER"
   }
-]
-
+    
+],
   "campingcaravanning": {
   "title": "Camping & Caravanning at Froginwell Vineyard",
   "description": "Stay right in the heart of the celebrations with exclusive camping and caravanning facilities available for our wedding guests.",
