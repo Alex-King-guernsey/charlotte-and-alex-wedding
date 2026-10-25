@@ -40,7 +40,7 @@ body{
   padding:20px;
 }
 
-.hero-overlay{
+.overlay{
   background:rgba(255,255,255,0.12);
   backdrop-filter:blur(4px);
   color:white;
@@ -127,7 +127,7 @@ footer{
   padding:60px 20px 120px;
 }
 
-nav{
+.nav{
   position:fixed;
   bottom:0;
   width:100%;
@@ -139,7 +139,7 @@ nav{
   z-index:1000;
 }
 
-nav a{
+.nav a{
   color:var(--sage);
   text-decoration:none;
   font-size:14px;
