@@ -41,18 +41,19 @@ body{
 }
 
 .overlay{
-  background:rgba(255,255,255,0.20);
-}
+  background:rgba(255,255,255,0.18);
   backdrop-filter:blur(4px);
   color:white;
   padding:40px;
   border-radius:20px;
   max-width:600px;
+  border:1px solid rgba(255,255,255,0.25);
 }
 
 .hero h1{
-  font-size:3rem;
-  margin-bottom:10px;
+  font-size:4rem;
+  margin-bottom:15px;
+  font-weight:700;
 }
 
 .hero h2{
@@ -130,7 +131,7 @@ footer{
 
 .nav{
   position:fixed;
-  bottom:0;
+  top:0;
   width:100%;
   background:white;
   display:flex;
