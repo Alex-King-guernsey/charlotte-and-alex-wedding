@@ -3,6 +3,7 @@
   --gold:#c9a86a;
   --ivory:#faf8f5;
   --text:#333333;
+  --pink:#e8c9d2;
 }
 
 *{
@@ -23,8 +24,15 @@ body{
 }
 
 .hero{
-  height:100vh;
-  background:#6f8268;
+  min-height:100vh;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.35),
+      rgba(0,0,0,0.35)
+    ),
+    url("images/hero.jpg");
+  background-size:cover;
+  background-position:center;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -33,16 +41,27 @@ body{
 }
 
 .hero-overlay{
-  background:rgba(0,0,0,0.35);
+  background:rgba(255,255,255,0.12);
+  backdrop-filter:blur(4px);
   color:white;
   padding:40px;
   border-radius:20px;
-  max-width:500px;
+  max-width:600px;
 }
 
 .hero h1{
   font-size:3rem;
   margin-bottom:10px;
+}
+
+.hero h2{
+  color:white;
+  margin-bottom:10px;
+}
+
+.countdown{
+  margin-top:20px;
+  font-size:1.2rem;
 }
 
 section{
@@ -72,6 +91,35 @@ h2{
   text-decoration:none;
   border-radius:30px;
   margin-top:20px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  opacity:0.9;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:15px;
+}
+
+.gallery img{
+  width:100%;
+  border-radius:12px;
+  display:block;
+}
+
+details{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+
+summary{
+  cursor:pointer;
+  font-weight:bold;
 }
 
 footer{
@@ -88,4 +136,23 @@ nav{
   justify-content:space-around;
   padding:12px;
   box-shadow:0 -3px 10px rgba(0,0,0,.1);
+  z-index:1000;
+}
+
+nav a{
+  color:var(--sage);
+  text-decoration:none;
+  font-size:14px;
+}
+
+@media (max-width:768px){
+
+  .hero h1{
+    font-size:2.2rem;
+  }
+
+  .hero-overlay{
+    padding:25px;
+  }
+
 }
