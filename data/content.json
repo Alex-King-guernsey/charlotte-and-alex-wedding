@@ -1,0 +1,94 @@
+{
+  "couple": "Charlotte & Alex",
+
+  "date": "12 June 2027",
+
+  "venue": {
+    "name": "Froginwell Vineyard",
+    "address": "Froginwell Lane, Woodbury Salterton, Exeter",
+    "postcode": "EX5 1EP",
+    "description": "Nestled in the beautiful Devon countryside, Froginwell Vineyard provides the perfect backdrop for our wedding celebration."
+  },
+
+  "homepage": {
+    "title": "We're Getting Married!",
+    "message": "We're so excited to celebrate our wedding with our favourite people and can't wait to share our special day with you."
+  },
+
+  "story": {
+    "title": "How It All Began",
+    "content": "We've laughed, travelled, celebrated milestones, supported one another through life's adventures and built a life that we love together."
+  },
+
+  "timeline": [
+    {
+      "time": "1:00pm",
+      "event": "Guests Arrive"
+    },
+    {
+      "time": "1:30pm",
+      "event": "Ceremony Begins"
+    },
+    {
+      "time": "2:30pm",
+      "event": "Drinks Reception"
+    },
+    {
+      "time": "4:00pm",
+      "event": "Wedding Breakfast"
+    },
+    {
+      "time": "6:30pm",
+      "event": "Speeches"
+    },
+    {
+      "time": "8:00pm",
+      "event": "Evening Reception"
+    },
+    {
+      "time": "12:00am",
+      "event": "Carriages"
+    }
+  ],
+
+  "bbq": {
+    "date": "Sunday 13 June 2027",
+    "time": "12:00pm - 4:00pm",
+    "description": "Join us for a relaxed BBQ the day after the wedding. Further details will be shared closer to the date."
+  },
+
+  "transport": [
+    "Free on-site parking",
+    "Accessible parking available",
+    "Taxi information will be added closer to the wedding"
+  ],
+
+  "accommodation": [
+    {
+      "name": "The Devon Hotel",
+      "description": "Comfortable accommodation within easy reach of the venue.",
+      "website": "https://example.com"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What is the dress code?",
+      "answer": "Formal attire."
+    }
+  ],
+
+  "gallery": [
+    "images/gallery1.jpg",
+    "images/gallery2.jpg",
+    "images/gallery3.jpg"
+  ],
+
+  "contact": {
+    "email": "hello@charlotteandalex.co.uk"
+  },
+
+  "rsvp": {
+    "url": "https://forms.office.com"
+  }
+}
