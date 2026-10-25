@@ -35,22 +35,6 @@ ${data.venue.postcode}
 📍 Open in Google Maps
 </a>
 
-<div class='venue-highlights'>
-
-  <div class='card'>
-    🚗 Free Parking
-  </div>
-
-  <div class='card'>
-    ♿ Accessible Parking
-  </div>
-
-  <div class='card'>
-    🏕 Camping Available
-  </div>
-
-</div>
-
 </div>
 
 <h2>🚗 Travel & Parking</h2>
@@ -79,25 +63,6 @@ ${data.travel.taxi}
 <strong>By Road</strong><br>
 ${data.travel.road}
 </div>
-
-<div class='card'>
-<h3>🏕 Staying On-Site?</h3>
-
-<p>
-Exclusive camping and caravanning facilities are available for wedding guests at Froginwell Vineyard.
-</p>
-
-<a
-  class='btn'
-  href='${data.campingCaravanning.url}'
-  target='_blank'
->
-Request Camping or Caravan Pitch
-</a>
-
-</div>
-
-
 
 <h2>Transport & Parking</h2>
 
