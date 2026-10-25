@@ -35,6 +35,22 @@ ${data.venue.postcode}
 📍 Open in Google Maps
 </a>
 
+<div class='venue-highlights'>
+
+  <div class='card'>
+    🚗 Free Parking
+  </div>
+
+  <div class='card'>
+    ♿ Accessible Parking
+  </div>
+
+  <div class='card'>
+    🏕 Camping Available
+  </div>
+
+</div>
+
 </div>
 
 <h2>🚗 Travel & Parking</h2>
@@ -117,7 +133,7 @@ Request Camping or Caravan Pitch
 
 <h2 id='stay'>Accommodation</h2>
 
-<div class='card'>
+<div class='card camping-card'>
   <h3>🏕 ${data.campingCaravanning.title}</h3>
 
   <p>${data.campingCaravanning.description}</p>
