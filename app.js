@@ -64,38 +64,6 @@ ${data.travel.taxi}
 ${data.travel.road}
 </div>
 
-<h2>Transport & Parking</h2>
-
-<div class='card'>
-  <strong>Parking</strong><br>
-  ${data.travel.parking}
-</div>
-
-<div class='card'>
-  <strong>Accessible Parking</strong><br>
-  ${data.travel.accessibleParking}
-</div>
-
-<div class='card'>
-  <strong>Camping Access</strong><br>
-  ${data.travel.camping}
-</div>
-
-<div class='card'>
-  <strong>Rail Travel</strong><br>
-  ${data.travel.rail}
-</div>
-
-<div class='card'>
-  <strong>Taxis</strong><br>
-  ${data.travel.taxi}
-</div>
-
-<div class='card'>
-  <strong>By Road</strong><br>
-  ${data.travel.road}
-</div>
-
 <h2 id='stay'>Accommodation</h2>
 
 <div class='card camping-card'>
