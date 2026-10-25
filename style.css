@@ -104,6 +104,15 @@ h2{
   box-shadow:0 4px 12px rgba(0,0,0,.08);
 }
 
+.card h3{
+  color:var(--sage);
+  margin-bottom:10px;
+}
+
+.card p{
+  margin-bottom:12px;
+}
+
 .btn{
   display:inline-block;
   padding:14px 28px;
