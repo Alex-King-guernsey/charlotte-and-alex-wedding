@@ -1,24 +1,46 @@
 {
   "couple": "Charlotte & Alex",
 
-  "date": "12 June 2027",
-
-  "venue": {
-    "name": "Froginwell Vineyard",
-    "address": "Froginwell Lane, Woodbury Salterton, Exeter",
-    "postcode": "EX5 1EP",
-    "description": "Nestled in the beautiful Devon countryside, Froginwell Vineyard provides the perfect backdrop for our wedding celebration."
-  },
+  "date": "2027-06-12",
 
   "homepage": {
     "title": "We're Getting Married!",
-    "message": "We're so excited to celebrate our wedding with our favourite people and can't wait to share our special day with you."
+    "message": "We're so excited to celebrate our wedding with our favourite people and can't wait to share our special day with you.",
+    "subtitle": "12 June 2027 • Froginwell Vineyard"
+  },
+
+  "rsvp": {
+    "url": "PASTE_YOUR_MICROSOFT_FORM_LINK_HERE",
+    "deadline": "Please RSVP by 1 March 2027"
   },
 
   "story": {
     "title": "How It All Began",
-    "content": "We've laughed, travelled, celebrated milestones, supported one another through life's adventures and built a life that we love together."
+    "content": "From our first meeting to this exciting new chapter, we've been incredibly lucky to share so many wonderful memories together. We've laughed, travelled, celebrated milestones, supported one another through life's adventures and built a life that we love. Now we're looking forward to bringing together all the people who mean so much to us as we begin married life. Thank you for being part of our journey. We can't wait to celebrate with you."
   },
+
+  "journey": [
+    {
+      "year": "2019",
+      "description": "We first met."
+    },
+    {
+      "year": "2020",
+      "description": "Our first adventures together."
+    },
+    {
+      "year": "2023",
+      "description": "We made a house a home."
+    },
+    {
+      "year": "2025",
+      "description": "Alex proposed."
+    },
+    {
+      "year": "2027",
+      "description": "We say 'I do'."
+    }
+  ],
 
   "timeline": [
     {
@@ -52,43 +74,97 @@
   ],
 
   "bbq": {
+    "title": "Join Us for a Relaxed BBQ",
     "date": "Sunday 13 June 2027",
     "time": "12:00pm - 4:00pm",
-    "description": "Join us for a relaxed BBQ the day after the wedding. Further details will be shared closer to the date."
+    "description": "For those staying locally, we'd love for you to join us for a relaxed BBQ the day after the wedding. We'll be gathering to enjoy good food, good company and the chance to relive the highlights from the day before. Further details will be shared closer to the wedding."
+  },
+
+  "venue": {
+    "name": "Froginwell Vineyard",
+    "address": "Froginwell Lane, Woodbury Salterton, Exeter",
+    "postcode": "EX5 1EP",
+    "description": "Nestled in the beautiful Devon countryside, Froginwell Vineyard provides the perfect backdrop for our wedding celebration. Surrounded by rolling hills, vineyards and stunning rural scenery, it immediately felt like the perfect place to celebrate such an important day."
   },
 
   "transport": [
-    "Free on-site parking",
-    "Accessible parking available",
-    "Taxi information will be added closer to the wedding"
+    "Free on-site parking available",
+    "Accessible parking spaces available",
+    "Taxi information will be added closer to the wedding",
+    "Nearest railway station: Exeter St Davids"
   ],
 
   "accommodation": [
     {
       "name": "The Devon Hotel",
-      "description": "Comfortable accommodation within easy reach of the venue.",
-      "website": "https://example.com"
-    }
-  ],
-
-  "faq": [
+      "description": "A comfortable hotel located within easy reach of Froginwell Vineyard.",
+      "website": "ADD_BOOKING_LINK_HERE"
+    },
     {
-      "question": "What is the dress code?",
-      "answer": "Formal attire."
+      "name": "The Cridford Inn",
+      "description": "A charming countryside inn with character and a warm welcome.",
+      "website": "ADD_BOOKING_LINK_HERE"
+    },
+    {
+      "name": "Hunters Moon Hotel",
+      "description": "Comfortable accommodation with convenient access to the venue and surrounding area.",
+      "website": "ADD_BOOKING_LINK_HERE"
     }
   ],
 
   "gallery": [
     "images/gallery1.jpg",
     "images/gallery2.jpg",
-    "images/gallery3.jpg"
+    "images/gallery3.jpg",
+    "images/gallery4.jpg"
   ],
+
+  "faq": [
+    {
+      "question": "What is the dress code?",
+      "answer": "Formal attire. We'd love everyone to dress up and celebrate with us."
+    },
+    {
+      "question": "Can I bring children?",
+      "answer": "Please refer to your invitation. Unfortunately, we're unable to accommodate guests beyond those named."
+    },
+    {
+      "question": "What if I have dietary requirements?",
+      "answer": "Please include any dietary requirements when completing your RSVP."
+    },
+    {
+      "question": "Is there parking available?",
+      "answer": "Yes. Complimentary on-site parking is available."
+    },
+    {
+      "question": "What happens if it rains?",
+      "answer": "The venue has excellent indoor facilities, so the celebrations will continue whatever the weather."
+    },
+    {
+      "question": "What time does the reception finish?",
+      "answer": "Carriages are scheduled for midnight."
+    },
+    {
+      "question": "Can I take photographs during the ceremony?",
+      "answer": "We'll share guidance closer to the day, but we'd love everyone to be fully present and enjoy the moment with us."
+    },
+    {
+      "question": "Do I need to RSVP for the BBQ?",
+      "answer": "Yes please. You'll find a question about the BBQ within the RSVP form."
+    }
+  ],
+
+  "photoSharing": {
+    "title": "Photo Sharing",
+    "description": "We'll share details of how to upload and view photos after the wedding.",
+    "url": "#"
+  },
 
   "contact": {
     "email": "hello@charlotteandalex.co.uk"
   },
 
-  "rsvp": {
-    "url": "https://forms.office.com"
+  "footer": {
+    "line": "Good wine • Good company • Great memories to come"
   }
 }
